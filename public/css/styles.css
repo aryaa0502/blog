@@ -1,0 +1,125 @@
+/* body {
+    background-image: url("https://source.unsplash.com/1600x900/?blog");
+    height: 50vh;
+} */
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.search {
+  height: 15vh;
+  position: absolute;
+  top: 200px;
+  /* left: 510px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 1em 1.5em;
+  margin-left: 30vw;
+  /* width: calc(100% - 100px); */
+  width: 550px;
+  border-radius: 24px;
+  background-color: #f9f3f3f5;
+  color: rgb(38, 36, 36);
+  font-family: inherit;
+  font-size: 105%;
+  box-shadow: 50px 20px 50px 15px #444242bc;
+}
+
+.search-button {
+  margin: 0 0.5em;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: none;
+  height: 55px;
+  width: 55px;
+  outline: none;
+  background-color: #f9f3f3f5;
+  color: rgb(38, 36, 36);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+/* .lefthalfimg {
+    background-image: url(https://source.unsplash.com/1600x900/?blog);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+} */
+.flexcards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.flexcards div {
+  /* text-shadow:50px 20px 50px 15px #444242bc ; */
+  font-size: 40px;
+}
+
+.card {
+  /* display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap; */
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 6px 6px 10px black;
+  padding: 2em;
+  border-radius: 30px;
+  width: 350px;
+  height: 200px;
+  margin: 8px;
+  opacity: 1;
+  padding: 70px 0;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+::placeholder {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1.abouth1 {
+  font-size: 40px;
+  font-family:'Courier New', Courier, monospace;
+  background: -webkit-linear-gradient(#81f6b9, #058141);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
